@@ -19,11 +19,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     changeImageBtn.addEventListener('click', () => {
         if (currentImage === 1) {
-            animalImage.src = 'assets/pookie-2.jpeg';
+            animalImage.src = '/asssets/pookie-2.jpeg';
             animalImage.alt = 'Another cute animal';
             currentImage = 2;
         } else {
-            animalImage.src = 'assets/pookie-1.jpeg';
+            animalImage.src = '/asssets/pookie-1.jpeg';
             animalImage.alt = 'Cute animal';
             currentImage = 1;
         }
